@@ -3,7 +3,29 @@
 
 ---
 
-## 🌌 Overview
+## ## ⭐ Join the Mission
+
+Stellar Provenance is more than a project—it's a movement to democratize space discovery and create a lasting digital legacy for explorers everywhere.
+
+**Name the stars. Map the unknown. Build the future of decentralized astronomy.**
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** — see the [`LICENSE`](LICENSE) file for details.
+
+The MIT License allows you to:
+- ✅ Use this project for commercial purposes
+- ✅ Modify and distribute the software
+- ✅ Use it privately or publicly
+- ✅ Include in proprietary applications
+
+With the requirement to:
+- ⚠️ Include a copy of the license
+- ⚠️ State significant changes to the code
+
+For full details, see the [`LICENSE`](LICENSE) file.erview
 
 **Stellar Provenance** is an open, community‑driven initiative to create a decentralized registry of celestial discoveries—real or simulated—powered by open astronomical data and blockchain technology. The project aims to democratize space exploration by allowing individuals to symbolically name, annotate, and preserve celestial objects on an immutable ledger while contributing to scientific engagement and public understanding of astronomy.
 
