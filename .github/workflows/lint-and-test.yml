@@ -16,12 +16,13 @@ concurrency:
 
 jobs:
   lint-and-test:
+    name: Node quality checks
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Detect package manager
+      - name: Detect package manager lockfile
         id: detect
         run: |
           if [ -f package-lock.json ]; then
@@ -38,11 +39,11 @@ jobs:
             echo "lockfile=" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: No JavaScript workspace detected
+      - name: Skip when no JS workspace is found
         if: steps.detect.outputs.manager == 'none'
         run: echo "No lockfile found; skipping lint/test."
 
-      - name: Setup Node.js
+      - name: Setup Node.js 20 with caching
         if: steps.detect.outputs.manager != 'none'
         uses: actions/setup-node@v4
         with:
@@ -50,7 +51,7 @@ jobs:
           cache: ${{ steps.detect.outputs.manager }}
           cache-dependency-path: ${{ steps.detect.outputs.lockfile }}
 
-      - name: Install dependencies
+      - name: Install dependencies with detected manager
         if: steps.detect.outputs.manager != 'none'
         run: |
           case "${{ steps.detect.outputs.manager }}" in
@@ -59,7 +60,7 @@ jobs:
             yarn) corepack enable && yarn install --frozen-lockfile ;;
           esac
 
-      - name: Run lint (if configured)
+      - name: Run lint script if present
         if: steps.detect.outputs.manager != 'none'
         run: |
           case "${{ steps.detect.outputs.manager }}" in
@@ -68,7 +69,7 @@ jobs:
             yarn) yarn run --if-present lint ;;
           esac
 
-      - name: Run tests (if configured)
+      - name: Run test suite if present
         if: steps.detect.outputs.manager != 'none'
         run: |
           case "${{ steps.detect.outputs.manager }}" in
