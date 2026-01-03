@@ -4,6 +4,18 @@ This document outlines security protocols, best practices, and compliance requir
 
 ---
 
+## 🛡️ Secrets Management
+
+- Do not commit private keys, API tokens, passwords, or database connection strings.
+- Use environment files (.env.local, .env) that stay out of version control; start from .env.example where provided.
+- CI runs Gitleaks (see .gitleaks.toml) to block secrets in pull requests; run it locally before pushing:
+
+```bash
+gitleaks detect --config .gitleaks.toml --source . --redact
+```
+
+- If a secret is exposed, rotate it immediately and remove it from git history (for example, using git filter-repo or GitHub’s scrub tools).
+
 ## 🔒 Smart Contract Security
 
 ### Pre-Deployment Checklist

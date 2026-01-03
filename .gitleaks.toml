@@ -1,0 +1,13 @@
+title = "Stellar-Provenance gitleaks configuration"
+
+gitleaks_version = "8.18.0"
+
+[allowlist]
+  description = "Ignore known placeholders and local dev dummy secrets"
+  regexes = [
+    "(?i)YOUR_TEST_KEY_HERE",
+    "(?i)YOUR_KEY_HERE",
+    "(?i)YOUR_JWT_SECRET_HERE",
+    "postgresql://user:pass@localhost:5432/db",
+    "redis://localhost:6379"
+  ]

@@ -166,6 +166,10 @@ npm run dev
    - Get feedback before coding
    - Avoid wasted effort on rejected PRs
 
+4. **Run secret scan**
+   - Install gitleaks (e.g., `brew install gitleaks` or `choco install gitleaks`)
+   - Run `gitleaks detect --config .gitleaks.toml --source . --redact` before opening a PR
+
 ### Code Standards
 
 #### Smart Contracts (Solidity)
@@ -282,6 +286,7 @@ Follow [Conventional Commits](https://www.conventionalcommits.org/):
 - [ ] Code changes made
 - [ ] Tests written and passing
 - [ ] Documentation updated
+- [ ] Secret scan (gitleaks) passes
 - [ ] No console errors or warnings
 - [ ] Commit messages follow format
 - [ ] Ready for review

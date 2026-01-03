@@ -15,8 +15,23 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  secret-scan:
+    name: Secret scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Run gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        with:
+          args: --verbose --redact --config=.gitleaks.toml --source=.
+
   lint-and-test:
     name: Node quality checks
+    needs: secret-scan
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
