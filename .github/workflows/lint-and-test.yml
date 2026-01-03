@@ -1,0 +1,78 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Detect package manager
+        id: detect
+        run: |
+          if [ -f package-lock.json ]; then
+            echo "manager=npm" >> "$GITHUB_OUTPUT"
+            echo "lockfile=package-lock.json" >> "$GITHUB_OUTPUT"
+          elif [ -f pnpm-lock.yaml ]; then
+            echo "manager=pnpm" >> "$GITHUB_OUTPUT"
+            echo "lockfile=pnpm-lock.yaml" >> "$GITHUB_OUTPUT"
+          elif [ -f yarn.lock ]; then
+            echo "manager=yarn" >> "$GITHUB_OUTPUT"
+            echo "lockfile=yarn.lock" >> "$GITHUB_OUTPUT"
+          else
+            echo "manager=none" >> "$GITHUB_OUTPUT"
+            echo "lockfile=" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: No JavaScript workspace detected
+        if: steps.detect.outputs.manager == 'none'
+        run: echo "No lockfile found; skipping lint/test."
+
+      - name: Setup Node.js
+        if: steps.detect.outputs.manager != 'none'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: ${{ steps.detect.outputs.manager }}
+          cache-dependency-path: ${{ steps.detect.outputs.lockfile }}
+
+      - name: Install dependencies
+        if: steps.detect.outputs.manager != 'none'
+        run: |
+          case "${{ steps.detect.outputs.manager }}" in
+            npm) npm ci ;;
+            pnpm) corepack enable pnpm && pnpm install --frozen-lockfile ;;
+            yarn) corepack enable && yarn install --frozen-lockfile ;;
+          esac
+
+      - name: Run lint (if configured)
+        if: steps.detect.outputs.manager != 'none'
+        run: |
+          case "${{ steps.detect.outputs.manager }}" in
+            npm) npm run lint --if-present ;;
+            pnpm) pnpm run --if-present lint ;;
+            yarn) yarn run --if-present lint ;;
+          esac
+
+      - name: Run tests (if configured)
+        if: steps.detect.outputs.manager != 'none'
+        run: |
+          case "${{ steps.detect.outputs.manager }}" in
+            npm) npm test --if-present ;;
+            pnpm) pnpm run --if-present test ;;
+            yarn) yarn run --if-present test ;;
+          esac
