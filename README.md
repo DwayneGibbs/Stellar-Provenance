@@ -105,7 +105,7 @@ If you're passionate about space, decentralization, open science, or gaming—we
 - 📧 **Early Access**: Star this repo to stay updated
 - 💬 **Discussions**: Follow our conversation history in `/docs/conversation-history/` to understand the project's genesis
 - 🐙 **GitHub Issues**: Share ideas, questions, or proposals (more templates coming soon)
-- 📚 **Documentation**: Read our [VISION.md](VISION.md), [whitepapers](/docs/), and [contribution guidelines](CONTRIBUTING.md)
+- 📚 **Documentation**: Read our [VISION.md](VISION.md), browse the [docs directory](/docs/), and [contribution guidelines](CONTRIBUTING.md)
 - 🚀 **Community Channels** (launching soon): Discord, Farcaster, and more
 
 ### Guidelines
