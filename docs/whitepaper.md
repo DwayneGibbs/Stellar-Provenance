@@ -416,7 +416,7 @@ contract NamingRegistry is Ownable, Pausable {
 | Team Reserve | 150,000 | Vested 1-year |
 | DAO Treasury | 300,000 | Controlled by community |
 | Rewards (Play-to-Earn) | 250,000 | Distributed over 24 months |
-| **Liquidity/Reserve** | **100,000** | **For governance/stability** |
+| Liquidity/Reserve | 100,000 | For governance/stability |
 
 **Distribution Mechanisms:**
 - Early contributors: GitHub contributions, Discord engagement, whitepaper feedback
