@@ -547,7 +547,7 @@ contract NamingRegistry is Ownable, Pausable {
 - Smart contract scaffolding
 - Frontend landing page
 
-### Phase 2: MVP - Testnet (Q1 2026)
+### Phase 2: MVP - Testnet (Q1-Q2 2026)
 - Smart contracts deployed to Sepolia
 - Full frontend DApp (discovery, minting, marketplace)
 - 1,000+ testnet transactions
