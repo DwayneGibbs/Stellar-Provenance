@@ -286,9 +286,9 @@ contract CelestialNFT is ERC721, ERC2981, Ownable {
     struct Metadata {
         string name;
         string description;
-        float ra;              // Right Ascension
-        float dec;             // Declination
-        float magnitude;
+        int256 ra;              // Right Ascension, scaled integer (e.g., value * 1e6)
+        int256 dec;             // Declination, scaled integer (e.g., value * 1e6)
+        int256 magnitude;       // Apparent magnitude, scaled integer (e.g., value * 1e6)
         string spectralType;
         string ipfsHash;       // Link to full metadata
         uint256 timestamp;
