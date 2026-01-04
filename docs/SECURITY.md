@@ -528,13 +528,9 @@ app.use((err, req, res, next) => {
 
 ## 🚨 Security Contacts
 
-| Role | Email | Availability |
-|------|-------|--------------|
-| Security Lead | security@stellarprovenance.com | 24/7 |
-| Smart Contract Dev | dev@stellarprovenance.com | Business hours |
-| Ops Lead | ops@stellarprovenance.com | 24/7 |
+For security vulnerabilities, please use [GitHub Security Advisories](https://github.com/DwayneGibbs/Stellar-Provenance/security/advisories) to report issues privately.
 
-**To report vulnerabilities:** Email security@stellarprovenance.com with details.
+**To report vulnerabilities:** Submit a private security advisory through GitHub.
 
 ---
 

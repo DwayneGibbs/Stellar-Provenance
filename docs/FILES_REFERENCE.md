@@ -291,7 +291,7 @@ Found a typo or outdated info? Help us improve!
 
 - **General questions:** Discord #developers
 - **Specific technical issues:** Create GitHub Issue
-- **Security concerns:** Email security@stellarprovenance.com
+- **Security concerns:** Use GitHub Security Advisories
 - **Community building:** Discord #community-managers
 
 ---

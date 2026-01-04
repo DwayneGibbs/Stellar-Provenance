@@ -3,7 +3,7 @@
 
 ---
 
-## ## ⭐ Join the Mission
+## ⭐ Join the Mission
 
 Stellar Provenance is more than a project—it's a movement to democratize space discovery and create a lasting digital legacy for explorers everywhere.
 
@@ -13,7 +13,7 @@ Stellar Provenance is more than a project—it's a movement to democratize space
 
 ## 📜 License
 
-This project is licensed under the **MIT License** — see the [`LICENSE`](LICENSE) file for details.
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 The MIT License allows you to:
 - ✅ Use this project for commercial purposes
@@ -25,7 +25,7 @@ With the requirement to:
 - ⚠️ Include a copy of the license
 - ⚠️ State significant changes to the code
 
-For full details, see the [`LICENSE`](LICENSE) file.erview
+For full details, see the [LICENSE](LICENSE) file.
 
 **Stellar Provenance** is an open, community‑driven initiative to create a decentralized registry of celestial discoveries—real or simulated—powered by open astronomical data and blockchain technology. The project aims to democratize space exploration by allowing individuals to symbolically name, annotate, and preserve celestial objects on an immutable ledger while contributing to scientific engagement and public understanding of astronomy.
 
@@ -59,7 +59,7 @@ Our goal is to build a shared cosmic commons—one that blends exploration, crea
 
 ## 🛠️ Current Status
 
-Stellar Provenance is in its **early development and planning phase**. This repository currently includes:
+Stellar Provenance is in its **early development and planning phase** (docs-first, pre-MVP). This repository currently includes:
 
 - Project vision and conceptual documentation  
 - White paper drafts  
@@ -93,10 +93,21 @@ If you’re passionate about space, decentralization, or scientific engagement, 
 Community channels (coming soon):
 
 - 🌐 Website  
-- 💬 Discord / Matrix  
+- 💬 Discord / Matrix (enable and publish invite)  
 - 🐦 Farcaster / Social channels  
+- 🗨️ GitHub Discussions (enable in repository settings)  
 - 📄 White Paper  
 - 🛠️ Contribution Guidelines  
+
+### Feedback & Participation
+- Open GitHub Issues for bugs, ideas, and questions once issue templates are published
+- Enable GitHub Discussions and use categories for questions/ideas
+- Join the community chat once Discord/Matrix is live
+
+### Policies
+- Follow our [Code of Conduct](CODE_OF_CONDUCT.md)
+- Review our [Contributing Guide](CONTRIBUTING.md) and [Contributor Onboarding](CONTRIBUTING_NEW.md)
+- See [Security](SECURITY.md) for responsible disclosure and pre-deploy requirements
 
 ---
 
