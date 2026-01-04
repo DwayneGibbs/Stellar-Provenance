@@ -130,14 +130,15 @@ Explore the `/docs` directory for:
 
 ## 📅 Roadmap
 
-| Phase | Focus | Timeline |
-|-------|-------|----------|
-| **1** | Community formation, vision alignment, founding members | Now |
-| **2** | MVP naming DApp + testnet, basic gameplay loop | Q1 2026 |
-| **3** | Celestial data integration, visualization tools, citizen science tasks | Q2 2026 |
-| **4** | Governance system, community voting, naming disputes | Q3 2026 |
-| **5** | Mainnet launch, scientific partnerships, rewards programs | Q4 2026 |
+| Phase | Focus | Timeline* |
+|-------|-------|-----------|
+| **1** | Community formation, vision alignment, founding members | Months 1–2 |
+| **2** | MVP naming DApp + testnet, basic gameplay loop | Months 3–4 |
+| **3** | Celestial data integration, visualization tools, citizen science tasks | Months 5–6 |
+| **4** | Governance system, community voting, naming disputes | Months 7–8 |
+| **5** | Mainnet launch, scientific partnerships, rewards programs | Months 9–12 |
 
+\*Relative to project kickoff. See [ROADMAP.md](/docs/ROADMAP.md) for the detailed, authoritative schedule.
 ---
 
 ## 📜 License
