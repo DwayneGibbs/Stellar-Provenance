@@ -547,28 +547,28 @@ contract NamingRegistry is Ownable, Pausable {
 - Smart contract scaffolding
 - Frontend landing page
 
-### Phase 2: MVP - Testnet (Q1-Q2 2026)
+### Phase 2: MVP - Testnet (Q2 2026)
 - Smart contracts deployed to Sepolia
 - Full frontend DApp (discovery, minting, marketplace)
 - 1,000+ testnet transactions
 - 500+ active users
 - 10+ contributors
 
-### Phase 3: Community Governance (Q2 2026)
+### Phase 3: Community Governance (Q2-Q3 2026)
 - Governance token distribution
 - DAO launch with voting
 - Polygon mainnet deployment
 - 5,000+ community members
 - Advanced marketplace features
 
-### Phase 4: Scientific Integration (Q2-Q3 2026)
+### Phase 4: Scientific Integration (Q3 2026)
 - Real-time data integration (Gaia, SkyMapper)
 - Citizen science tasks
 - Researcher partnerships
 - API documentation
 - Educational partnerships
 
-### Phase 5: Scaling & Sustainability (Q3-Q4 2026)
+### Phase 5: Scaling & Sustainability (Q4 2026)
 - Multi-chain deployment (Arbitrum, Optimism)
 - Ethereum mainnet (premium tier)
 - Scientific publications based on platform data
