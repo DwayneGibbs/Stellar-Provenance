@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security Vulnerability
+    url: https://github.com/DwayneGibbs/Stellar-Provenance/security/advisories
+    about: Please report security issues privately via GitHub Security Advisories or email security@stellar-provenance.dev.
+  - name: Community Questions (enable Discussions)
+    url: https://github.com/DwayneGibbs/Stellar-Provenance/discussions
+    about: Use Discussions for Q&A and ideas once enabled in repository settings.
