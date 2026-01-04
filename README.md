@@ -149,8 +149,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ## ⭐ Join the Mission
 
-Stellar Provenance is more than a project—it's a movement to democratize space discovery and create a lasting digital legacy for explorers everywhere.
-
 **Ready to explore the cosmos? Let's build this together.**
 
 - 🌐 [Website](coming-soon)  
