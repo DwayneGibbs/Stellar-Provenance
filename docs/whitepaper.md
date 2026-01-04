@@ -1,7 +1,7 @@
 # Stellar Provenance: A Decentralized Framework for Discovering, Naming, and Mapping Celestial Objects
 
 **Version:** 1.0  
-**Date:** December 2025  
+**First Published:** December 2025  
 **Authors:** Dwayne Gibbs and the Stellar-Provenance Community  
 **License:** MIT
 
@@ -658,7 +658,7 @@ By combining open astronomical data, blockchain transparency, and game design, w
 
 ---
 
-**Last Updated:** December 2025  
+**Last Updated:** January 4, 2026  
 **Next Review:** March 2026  
 **Maintained By:** Stellar-Provenance Core Team
 
