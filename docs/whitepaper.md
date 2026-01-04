@@ -104,7 +104,7 @@ Stellar Provenance exists to:
 | **Transparency** | All transactions, governance decisions, and code are public and auditable |
 | **Community Governance** | Major decisions are made through community voting, not unilateral authority |
 | **Accessibility** | The platform is free or low-cost to use; open data is never paywall-restricted |
-| **Respect for Authority** | Our symbolic names complement (not replace) official IAU designations |
+| **Respect for Authority** | Symbolic names complement, not replace, official IAU designations |
 | **Permanence** | Blockchain ensures discovery records outlast any single platform or institution |
 | **Inclusive Design** | Players of all backgrounds, experience levels, and geographies can participate |
 
