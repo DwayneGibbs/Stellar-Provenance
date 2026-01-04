@@ -540,35 +540,35 @@ contract NamingRegistry is Ownable, Pausable {
 
 ## 9. Roadmap
 
-### Phase 1: Foundation & Community (Months 1-2)
+### Phase 1: Foundation & Community (Q1 2026)
 - GitHub repo launch + documentation
 - White paper publication
 - Discord community (200+ members)
 - Smart contract scaffolding
 - Frontend landing page
 
-### Phase 2: MVP - Testnet (Months 3-4)
+### Phase 2: MVP - Testnet (Q1 2026)
 - Smart contracts deployed to Sepolia
 - Full frontend DApp (discovery, minting, marketplace)
 - 1,000+ testnet transactions
 - 500+ active users
 - 10+ contributors
 
-### Phase 3: Community Governance (Months 5-6)
+### Phase 3: Community Governance (Q2 2026)
 - Governance token distribution
 - DAO launch with voting
 - Polygon mainnet deployment
 - 5,000+ community members
 - Advanced marketplace features
 
-### Phase 4: Scientific Integration (Months 7-9)
+### Phase 4: Scientific Integration (Q2-Q3 2026)
 - Real-time data integration (Gaia, SkyMapper)
 - Citizen science tasks
 - Researcher partnerships
 - API documentation
 - Educational partnerships
 
-### Phase 5: Scaling & Sustainability (Months 10+)
+### Phase 5: Scaling & Sustainability (Q3-Q4 2026)
 - Multi-chain deployment (Arbitrum, Optimism)
 - Ethereum mainnet (premium tier)
 - Scientific publications based on platform data
