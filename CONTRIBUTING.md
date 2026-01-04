@@ -367,7 +367,7 @@ We follow these principles:
 ### Reporting Issues
 If you experience harassment or misconduct:
 - Report to community managers in Discord DMs
-- Email: security@stellarprovenance.com (for sensitive issues)
+- Open a confidential GitHub issue labeled `conduct` (for sensitive issues)
 - All reports will be taken seriously and confidentially
 
 ---

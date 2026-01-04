@@ -26,7 +26,7 @@ We are committed to building an open, respectful, and inclusive community. By pa
 This code applies to all project spaces, including GitHub issues, pull requests, discussions, documentation, community chats (Discord/Matrix), events, and any public or private communication related to the project.
 
 ## Reporting
-- If you experience or witness unacceptable behavior, please email the maintainers at `security@stellar-provenance.dev` or open a confidential issue labeled `conduct`.
+- If you experience or witness unacceptable behavior, please open a confidential issue labeled `conduct`.
 - For urgent matters in chat spaces, contact moderators directly.
 
 ## Enforcement
