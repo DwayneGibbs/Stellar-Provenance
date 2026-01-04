@@ -1,155 +1,162 @@
-﻿# **Stellar Provenance**  
-### *A Decentralized Platform for Naming and Mapping Celestial Discoveries*
+# **Stellar Provenance**  
+### *A Web3 Space Explorer Game Powered by Real Astronomical Data*
 
 ---
 
-## ⭐ Join the Mission
+## 🚀 The Vision
 
-Stellar Provenance is more than a project—it's a movement to democratize space discovery and create a lasting digital legacy for explorers everywhere.
+**Explore. Discover. Name. Own. Contribute.**
 
-**Name the stars. Map the unknown. Build the future of decentralized astronomy.**
+Stellar Provenance is an open-source Web3 space exploration game where players discover, name, and map real celestial bodies from open astronomical datasets (Gaia, SkyMapper, TESS), mint those discoveries as blockchain-backed NFTs, and help advance citizen science—all while building a persistent, player-owned universe.
 
+This isn't a passive database. This is a **playable, immersive experience** where every discovery matters, every name becomes part of history, and every explorer shapes the future of space.
+
+---
+
+## 🌌 What You'll Actually Do
+
+**In Stellar Provenance, you will:**
+
+- 🔭 **Explore real celestial data** from open, globally-recognized astronomical sources  
+- 🎯 **Discover and name** stars, planets, moons, and exoplanets before anyone else  
+- ⛓️ **Mint discoveries as NFTs** on Ethereum (or L2 networks), creating immutable records of your exploration  
+- 🗺️ **Map celestial bodies** with scientific metadata (coordinates, magnitude, spectral type) aligned with IAU standards  
+- 🧬 **Contribute to citizen science** by classifying real astronomical data and validating player discoveries  
+- 🏆 **Earn rewards** through exploration, naming, and community governance participation  
+- 🎭 **Co-create lore and narrative** that ties real science to fictional discovery  
+- 🤝 **Govern together** with the community on naming disputes, platform evolution, and scientific priorities  
+
+---
+
+## 🎮 Game Mechanics
+
+The gameplay draws from the rich traditions of space exploration games while grounding every discovery in real, verifiable astronomical data:
+
+- **Discovery Scanner**: Scan open-source celestial catalogs to find unexplored objects
+- **Full Spectrum Analysis**: Analyze real observational data (photometry, astrometry) from SkyMapper and other providers
+- **Naming Rights**: Mint blockchain records of your discoveries; your name becomes permanently associated with each object
+- **Citizen Science Tasks**: Participate in real scientific workflows—classify anomalies, validate exoplanet candidates, flag interesting objects for researchers
+- **Community Validation**: Vote on naming proposals and dispute resolution through tokenized governance
+- **Rewards & Progression**: Earn tokens, NFTs, and reputation for discoveries, scientific contributions, and governance participation
+
+---
+
+## 🧬 Scientific Credibility + Community Power
+
+We're not building a "name a star" novelty service. Stellar Provenance is designed from the ground up to:
+
+1. **Align with scientific standards** – Metadata follows IAU conventions and Virtual Observatory protocols
+2. **Respect existing authorities** – All names are symbolic and complementary to official IAU designations
+3. **Leverage open data** – We use freely available, CC-licensed data from global astronomy initiatives
+4. **Enable citizen science** – Players contribute real-world annotations and classifications that researchers can use
+5. **Ensure provenance** – Blockchain immutably records the chain of discovery, validation, and contribution
+
+This creates a **dual value system**: entertainment for players, scientific value for researchers.
+
+---
+
+## 🧭 Project Goals
+
+- Build a **playable Web3 game** that makes space exploration engaging and rewarding
+- Create a **decentralized registry** of player-discovered and named celestial objects
+- Integrate **open astronomical datasets** (Gaia, SkyMapper, TESS, SDSS)
+- Enable **blockchain-based ownership** through NFTs and immutable provenance records
+- Support **citizen science workflows** that benefit real astronomical research
+- Foster a **community-governed platform** where players shape evolution and priorities
+- Demonstrate that **games and science aren't mutually exclusive**—they can amplify each other
+
+---
+
+## 🛠️ Current Status
+
+Stellar Provenance is in its **early development phase** (docs-first, pre-MVP). This repository currently includes:
+
+- Conceptual whitepapers and research notes
+- Community strategy and roadmap planning
+- Vision and architectural concepts
+- Foundation for technical development
+
+As the project evolves, this repository will expand to include:
+
+- Smart contract prototypes (ERC-721 for discovery NFTs, governance tokens)
+- Game world and data schemas
+- API specifications for celestial data integration
+- Frontend (Web3 DApp) and backend components
+- Contribution guidelines and governance frameworks
+
+---
+
+## 🌍 Community First
+
+Stellar Provenance is built with a **community-first philosophy**. We're looking for:
+
+- **Game Developers** – Build the exploration interface and gameplay loops
+- **Smart Contract Engineers** – Design ownership, governance, and reward mechanisms
+- **Astronomers & Data Scientists** – Ensure scientific accuracy and data integration
+- **Web3 Builders** – Implement token economics, governance, and NFT infrastructure
+- **Designers & Artists** – Create immersive UI, celestial visualizations, and narrative experiences
+- **Storytellers** – Co-author the lore and connect player discoveries to fictional narratives
+- **Citizen Scientists** – Help design real scientific tasks that players can contribute to
+
+If you're passionate about space, decentralization, open science, or gaming—we need you.
+
+### Get Involved
+
+- 📧 **Early Access**: Star this repo to stay updated
+- 💬 **Discussions**: Follow our conversation history in `/docs/conversation-history/` to understand the project's genesis
+- 🐙 **GitHub Issues**: Share ideas, questions, or proposals (more templates coming soon)
+- 📚 **Documentation**: Read our [VISION.md](VISION.md), browse the [docs directory](/docs/), and [contribution guidelines](CONTRIBUTING.md)
+- 🚀 **Community Channels** (launching soon): Discord, Farcaster, and more
+
+### Guidelines
+
+- Review our [Code of Conduct](CODE_OF_CONDUCT.md) to understand community values
+- Check [CONTRIBUTING.md](CONTRIBUTING.md) for development standards
+- See [SECURITY.md](SECURITY.md) for responsible disclosure and pre-deploy practices
+
+---
+
+## 📚 Documentation
+
+Explore the `/docs` directory for:
+
+- **[whitepaper.md](/docs/whitepaper.md)** – Full vision and technical architecture
+- **[research_notes.md](/docs/research_notes.md)** – Deep dives on blockchain, astronomy data, and game design
+- **[ROADMAP.md](/docs/ROADMAP.md)** – Detailed development phases
+- **[conversation-history/](/docs/conversation-history/)** – The conversations that shaped this project
+- Additional resources on community strategy, deployment, and tech stack
+
+---
+
+## 📅 Roadmap
+
+| Phase | Focus | Timeline* |
+|-------|-------|-----------|
+| **1** | Community formation, vision alignment, founding members | Months 1–2 |
+| **2** | MVP naming DApp + testnet, basic gameplay loop | Months 3–4 |
+| **3** | Celestial data integration, visualization tools, citizen science tasks | Months 5–6 |
+| **4** | Governance system, community voting, naming disputes | Months 7–8 |
+| **5** | Mainnet launch, scientific partnerships, rewards programs | Months 9–12 |
+
+*This table shows a high-level sequence relative to project kickoff (Months 1–12). For the authoritative, calendar-based timeline (e.g., Q1–Q4 2026 in section 9), see [ROADMAP.md](/docs/ROADMAP.md).*
 ---
 
 ## 📜 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
-The MIT License allows you to:
-- ✅ Use this project for commercial purposes
-- ✅ Modify and distribute the software
-- ✅ Use it privately or publicly
-- ✅ Include in proprietary applications
-
-With the requirement to:
-- ⚠️ Include a copy of the license
-- ⚠️ State significant changes to the code
-
-For full details, see the [LICENSE](LICENSE) file.
-
-**Stellar Provenance** is an open, community‑driven initiative to create a decentralized registry of celestial discoveries—real or simulated—powered by open astronomical data and blockchain technology. The project aims to democratize space exploration by allowing individuals to symbolically name, annotate, and preserve celestial objects on an immutable ledger while contributing to scientific engagement and public understanding of astronomy.
-
-This repository serves as the foundation for the platform’s development, documentation, and community collaboration.
-
----
-
-## 🚀 Vision
-
-Humanity has always looked to the stars for meaning, inspiration, and discovery. Yet the process of naming and cataloging celestial bodies remains centralized and inaccessible to the public. Stellar Provenance introduces a new model:
-
-- **Open participation** in symbolic naming and mapping  
-- **Transparent provenance** through blockchain records  
-- **Community governance** to ensure quality and collaboration  
-- **Scientific alignment** through open data and citizen science opportunities  
-
-Our goal is to build a shared cosmic commons—one that blends exploration, creativity, and scientific value.
-
----
-
-## 🧭 Project Goals
-
-- Create a **public, decentralized registry** of celestial objects  
-- Enable users to **symbolically name** stars, planets, moons, and other bodies  
-- Integrate **open astronomical datasets** (e.g., Gaia, SkyMapper, TESS)  
-- Provide **immutable provenance** using blockchain technology  
-- Support **citizen science** through annotation, classification, and discovery tasks  
-- Build a **community‑first ecosystem** of explorers, scientists, and creators  
-
----
-
-## 🛠️ Current Status
-
-Stellar Provenance is in its **early development and planning phase** (docs-first, pre-MVP). This repository currently includes:
-
-- Project vision and conceptual documentation  
-- White paper drafts  
-- Community strategy and planning materials  
-- Early architectural concepts  
-
-As the project evolves, this repository will expand to include:
-
-- Smart contract prototypes  
-- Data schemas and metadata standards  
-- API specifications  
-- Frontend and backend components  
-- Contribution guidelines  
-
----
-
-## 🌍 Community First
-
-Stellar Provenance is built with a **community‑first philosophy**. We welcome:
-
-- Developers  
-- Astronomers  
-- Educators  
-- Web3 builders  
-- Designers  
-- Storytellers  
-- Space enthusiasts  
-
-If you’re passionate about space, decentralization, or scientific engagement, you’re in the right place.
-
-Community channels (coming soon):
-
-- 🌐 Website  
-- 💬 Discord / Matrix (enable and publish invite)  
-- 🐦 Farcaster / Social channels  
-- 🗨️ GitHub Discussions (enable in repository settings)  
-- 📄 White Paper  
-- 🛠️ Contribution Guidelines  
-
-### Feedback & Participation
-- Open GitHub Issues for bugs, ideas, and questions once issue templates are published
-- Enable GitHub Discussions and use categories for questions/ideas
-- Join the community chat once Discord/Matrix is live
-
-### Policies
-- Follow our [Code of Conduct](CODE_OF_CONDUCT.md)
-- Review our [Contributing Guide](CONTRIBUTING.md) and [Contributor Onboarding](CONTRIBUTING_NEW.md)
-- See [Security](SECURITY.md) for responsible disclosure and pre-deploy requirements
-
----
-
-## 📚 Documentation
-
-All project documentation is located in the `/docs` directory, including:
-
-- Business white paper  
-- Technical concept notes  
-- Vision and roadmap  
-- Research summaries  
-- Community engagement plans  
-
-Additional documentation will be added as the project matures.
-
----
-
-## 🤝 Contributing
-
-We believe in open collaboration. Contribution guidelines will be published soon, but early contributors can:
-
-- Open issues with ideas or questions  
-- Submit proposals for architecture or data models  
-- Help shape the lore and narrative of the platform  
-- Participate in early discussions and planning  
-
-Your voice matters here.
-
----
-
-## 📅 Roadmap (High‑Level)
-
-- **Phase 1:** Documentation, vision, and community formation  
-- **Phase 2:** MVP naming registry + blockchain prototype  
-- **Phase 3:** Data integration + visualization tools  
-- **Phase 4:** Governance and community features  
-- **Phase 5:** Scientific collaboration and citizen science modules  
-
 ---
 
 ## ⭐ Join the Mission
 
-Stellar Provenance is more than a project—it’s a movement to democratize space discovery and create a lasting digital legacy for explorers everywhere.
+**Ready to explore the cosmos? Let's build this together.**
 
-**Name the stars. Map the unknown. Build the future of decentralized astronomy.**
+- 🌐 [Website](coming-soon)  
+- 💬 [Discord Community](coming-soon)  
+- 🐦 [Farcaster](coming-soon)  
+- 📄 [Whitepaper](/docs/whitepaper.md)  
+- 🛠️ [Contributing Guide](CONTRIBUTING.md)  
+
+---
+
+*Stellar Provenance is an open, community-driven initiative. The cosmos is vast, and we want to explore it together.*
