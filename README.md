@@ -138,7 +138,7 @@ Explore the `/docs` directory for:
 | **4** | Governance system, community voting, naming disputes | Months 7–8 |
 | **5** | Mainnet launch, scientific partnerships, rewards programs | Months 9–12 |
 
-*Relative to project kickoff. See [ROADMAP.md](/docs/ROADMAP.md) for the detailed, authoritative schedule.
+*This table shows a high-level sequence relative to project kickoff (Months 1–12). For the authoritative, calendar-based timeline (e.g., Q1–Q4 2026 in section 9), see [ROADMAP.md](/docs/ROADMAP.md).*
 ---
 
 ## 📜 License
