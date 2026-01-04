@@ -268,7 +268,7 @@ Each document includes links to:
 - Typos/clarity: Create GitHub issue or suggest edit
 - Technical questions: Ask in Discord #developers
 - Community questions: Ask in Discord #community-managers
-- Security concerns: Email security@stellarprovenance.com
+- Security concerns: Use GitHub Security Advisories
 
 ### Contributing Changes
 - Read [`CONTRIBUTING_NEW.md`](CONTRIBUTING_NEW.md)
