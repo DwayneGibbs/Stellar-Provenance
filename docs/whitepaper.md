@@ -1,7 +1,7 @@
 # Stellar Provenance: A Decentralized Framework for Discovering, Naming, and Mapping Celestial Objects
 
 **Version:** 1.0  
-**First Published:** December 2025  
+**Date:** December 2025  
 **Authors:** Dwayne Gibbs and the Stellar-Provenance Community  
 **License:** MIT
 
@@ -104,7 +104,7 @@ Stellar Provenance exists to:
 | **Transparency** | All transactions, governance decisions, and code are public and auditable |
 | **Community Governance** | Major decisions are made through community voting, not unilateral authority |
 | **Accessibility** | The platform is free or low-cost to use; open data is never paywall-restricted |
-| **Respect for Authority** | Symbolic names complement, not replace, official IAU designations |
+| **Respect for Authority** | Our symbolic names complement (not replace) official IAU designations |
 | **Permanence** | Blockchain ensures discovery records outlast any single platform or institution |
 | **Inclusive Design** | Players of all backgrounds, experience levels, and geographies can participate |
 
@@ -286,9 +286,9 @@ contract CelestialNFT is ERC721, ERC2981, Ownable {
     struct Metadata {
         string name;
         string description;
-        int256 ra;              // Right Ascension, scaled integer (e.g., value * 1e6)
-        int256 dec;             // Declination, scaled integer (e.g., value * 1e6)
-        int256 magnitude;       // Apparent magnitude, scaled integer (e.g., value * 1e6)
+        float ra;              // Right Ascension
+        float dec;             // Declination
+        float magnitude;
         string spectralType;
         string ipfsHash;       // Link to full metadata
         uint256 timestamp;
@@ -416,7 +416,7 @@ contract NamingRegistry is Ownable, Pausable {
 | Team Reserve | 150,000 | Vested 1-year |
 | DAO Treasury | 300,000 | Controlled by community |
 | Rewards (Play-to-Earn) | 250,000 | Distributed over 24 months |
-| Liquidity/Reserve | 100,000 | For governance/stability |
+| **Liquidity/Reserve** | **100,000** | **For governance/stability** |
 
 **Distribution Mechanisms:**
 - Early contributors: GitHub contributions, Discord engagement, whitepaper feedback
@@ -540,35 +540,35 @@ contract NamingRegistry is Ownable, Pausable {
 
 ## 9. Roadmap
 
-### Phase 1: Foundation & Community (Q1 2026)
+### Phase 1: Foundation & Community (Months 1-2)
 - GitHub repo launch + documentation
 - White paper publication
 - Discord community (200+ members)
 - Smart contract scaffolding
 - Frontend landing page
 
-### Phase 2: MVP - Testnet (Q2 2026)
+### Phase 2: MVP - Testnet (Months 3-4)
 - Smart contracts deployed to Sepolia
 - Full frontend DApp (discovery, minting, marketplace)
 - 1,000+ testnet transactions
 - 500+ active users
 - 10+ contributors
 
-### Phase 3: Community Governance (Q2-Q3 2026)
+### Phase 3: Community Governance (Months 5-6)
 - Governance token distribution
 - DAO launch with voting
 - Polygon mainnet deployment
 - 5,000+ community members
 - Advanced marketplace features
 
-### Phase 4: Scientific Integration (Q3 2026)
+### Phase 4: Scientific Integration (Months 7-9)
 - Real-time data integration (Gaia, SkyMapper)
 - Citizen science tasks
 - Researcher partnerships
 - API documentation
 - Educational partnerships
 
-### Phase 5: Scaling & Sustainability (Q4 2026)
+### Phase 5: Scaling & Sustainability (Months 10+)
 - Multi-chain deployment (Arbitrum, Optimism)
 - Ethereum mainnet (premium tier)
 - Scientific publications based on platform data
@@ -658,7 +658,7 @@ By combining open astronomical data, blockchain transparency, and game design, w
 
 ---
 
-**Last Updated:** January 4, 2026  
+**Last Updated:** December 2025  
 **Next Review:** March 2026  
 **Maintained By:** Stellar-Provenance Core Team
 
